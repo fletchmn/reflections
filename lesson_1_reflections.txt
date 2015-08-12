@@ -1,0 +1,13 @@
+Obviously, being able to see snippets of code side by side is useful to help identify where typos and other errors may have happened. It can also help show exactly where you made changes to a file.  It can also help, when merging files with someone else's work, show what changes they made.
+
+Having different versions lets you see how your thinking and your work evolve, and it lets you go back and try something you had previously tried without recreating it.
+
+The advantage of having manual commits is that you can commit base on the logic of your work, rather than on arbitrary, automatic intervals.  That way, you don't save nonsense, mistakes, or code fragments, and you do save a record that reflects your actual thinking.
+
+Google Docs and other similar systems don't focus on inter-related documents like code because it's not how most text-based systems work.  Since Git is designed for code, it's built to track documents that interact with each other or "call" each other so that you can track those relationships and changes.
+
+Being able to see what changes were made when, and compare them against each other lets you easily go back and find specific changes that you might want to undo, or at least to see exactly how those changes worked.
+
+Knowing that it's easy to revert to previous code means you can experiment and try things that might not work without worrying about ruining the program.  It's a very valuable tool for trying and reflecting on new stuff. Makes the repeated failure required to really get good at something possible.
+
+I'd like to use git to work on a website, since I'm still struggling with CSS as it relates to WordPress.
