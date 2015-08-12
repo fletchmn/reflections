@@ -1,0 +1,1 @@
+The most obvious reasons to want to use a remote repository would be to collaborate with people over distance, and to have a reliable off-site backup for your work.
