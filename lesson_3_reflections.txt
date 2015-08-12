@@ -1,1 +1,4 @@
 The most obvious reasons to want to use a remote repository would be to collaborate with people over distance, and to have a reliable off-site backup for your work.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+It's possible that what you're working on locally is more current, or that you at least want to check on the quality of updates made by other people before pulling changes locally. 
