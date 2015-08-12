@@ -1,0 +1,3 @@
+It makes sense to me that you have to create a git repository, so that when you make a first commit, the git software knows to track it. Otherwise, where would it keep the information?
+
+The staging area is where you put things to be committed. It's a good double-check to make sure you actually want to commit files.  For example, I had a .ds_store file (a hidden file that I don't know what it does) in the directory.  If git just automatically committed the directory, that would have been added too.
