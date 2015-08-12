@@ -1,3 +1,13 @@
 It makes sense to me that you have to create a git repository, so that when you make a first commit, the git software knows to track it. Otherwise, where would it keep the information?
 
 The staging area is where you put things to be committed. It's a good double-check to make sure you actually want to commit files.  For example, I had a .ds_store file (a hidden file that I don't know what it does) in the directory.  If git just automatically committed the directory, that would have been added too.
+
+You can use staging to only input one change at a time.  By making sure you only put things into staging that represent one logical unit, you can make your commits make sense.
+
+It seems like branches might be particularly useful when collaborating. For example, if I'm working on one feature, and someone else is working on another feature, it would be really confusing to have sequential commits on the same branch that don't include each other's code.  I'm less sure how much I would use branches when I'm working alone.  I guess it would be nice when trying a feature I'm less sure about, so that I can more easily go back to the master if I want to abandon a concept.
+
+The diagrams help show paths from one file to another, showing which files are unreachable from each other.
+
+Showing the merge in the diagram shows that more than one path of code went into creating the merged code. If we want to understand where features came from and how they were built, we have to follow backward on those paths.
+
+Automatic merging is much faster, and because it's fairly conservative about estimating its ability to guess, seems like it's likely pretty safe to rely on.  However, it can't tell what's happening when code collides, and so it leaves a lot of judgement calls to coders to sort out their differences.
